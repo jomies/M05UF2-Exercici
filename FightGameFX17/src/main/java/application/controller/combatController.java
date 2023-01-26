@@ -37,7 +37,7 @@ public class combatController {
 
     HashMap<String, GameCharacter> charactersMap;
 
-    @FXML
+    
     protected void initialize() {
         charactersMap = new HashMap<>();
         charactersMap.put("Charles", new Huma("Charles"));
@@ -48,6 +48,7 @@ public class combatController {
         charactersMap.put("Lara", new Troll("Lara"));
         charactersMap.put("Sebastian", new Nan("Sebastian"));
         charactersMap.put("Henry", new Nan("Henry"));
+        charactersMap.put("Jordi", new Huma("Jordi"));
         reset();
     }
 
