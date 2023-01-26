@@ -112,7 +112,9 @@ public class LoginController {
                 if (username.equals(uname) && password.equals(upswd)) {
                     return true;
                 }else{
+                //Avís dades introduïdes incorrectament
                     System.out.println("ERROR: Insert Correct values!");
+                    System.out.println("Vuelve a introducir los datos");
                 }
             }
         } catch (IOException ex) {
