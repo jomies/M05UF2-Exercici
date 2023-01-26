@@ -1,0 +1,8 @@
+Charles:Human
+Eric:Human
+Frederic:Troll
+Lara:Troll
+Alexander:Orc
+Joane:Orc
+Sebastian:Nan
+Henry:Nan
