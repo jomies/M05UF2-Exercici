@@ -108,8 +108,11 @@ public class LoginController {
                 String[] userData = linea.split(":");
                 String uname =userData[0];
                 String upswd = userData[1];
+                System.out.println("uname");
                 if (username.equals(uname) && password.equals(upswd)) {
                     return true;
+                }else{
+                    System.out.println("ERROR: Insert Correct values!");
                 }
             }
         } catch (IOException ex) {
