@@ -17,9 +17,12 @@ public class Main extends Application {
         stage.setTitle("Aplicacion lucha");
         stage.setScene(new Scene(root));
         stage.show();
+        System.out.println("Acció executada!");
+        
     }
 
     public static void main(String[] args) {
         launch(args);
+        System.out.println("Executant acció!");
     }
 }
