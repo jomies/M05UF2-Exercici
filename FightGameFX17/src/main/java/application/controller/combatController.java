@@ -49,6 +49,8 @@ public class combatController {
         charactersMap.put("Sebastian", new Nan("Sebastian"));
         charactersMap.put("Henry", new Nan("Henry"));
         charactersMap.put("Jordi", new Huma("Jordi"));
+        charactersMap.put("Pedro", new Orc("Pedro"));
+        charactersMap.put("Oriol", new Troll("Oriol"));
         reset();
     }
 
